@@ -71,6 +71,21 @@
       },
       "disabled": false,
       "description": "Miyabi MCP Bundle - 172+ tools for Git, GitHub, System, Docker, K8s, Network, Process, File, Log, Tmux, Database, Spec-Kit, and more"
+    },
+    "lark-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@larksuiteoapi/lark-mcp",
+        "mcp",
+        "-a", "cli_a866e6eba178de1c",
+        "-s", "tU2dJACuGgeOSxQfxGZnxeElZ6Kmbkn4",
+        "--domain", "https://open.larksuite.com",
+        "--token-mode", "tenant_access_token",
+        "-l", "zh"
+      ],
+      "disabled": false,
+      "description": "Lark OpenAPI MCP - ドキュメント、メッセージ、カレンダー、Bitable、Wiki等のLark操作"
     }
   }
 }
